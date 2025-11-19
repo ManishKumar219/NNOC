@@ -1,0 +1,205 @@
+/* Primary Accent		#F9B233	Bright orange-yellow (used in buttons, icons, and brand logo “Construct”)
+Secondary Accent		#003366	Deep navy blue (used in headers, footer background, and buttons)
+Text Primary		#1E2A38	Dark gray-blue (used for main text)
+Text Secondary		#5C6B7A	Medium gray (used for subtext)
+Background Light		#F5F7FA	Very light gray (used for section backgrounds)
+White		#FFFFFF	Background and text contrast color
+Highlight Blue		#007BFF	Link hover or button highlight (used in “Home” menu underline) */
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: white;
+}
+
+.primary-yellow{
+    background-color: #fbbf22;
+}
+
+.py{
+    background-color: #fbbf22;
+}
+
+.primary-yellow-text{
+    /* color: #F9B233; */
+    color: #fbbf22 !important;
+}
+
+/* #13042 */
+.nav_back{
+    background-color: #F8F9FA;
+    /* background-color: red; */
+}
+
+.blur-bg{
+    background-color: rgba(0, 0, 0, 0.6);
+    /* opacity: 0.6; */
+    text-align: left !important;
+    align-items: start;
+    
+}
+/* .blur-bg h1{
+    font-size: 3.4em;
+} */
+
+.blur-bg2{
+    background-color: #003366bd;
+}
+
+.nav_hover:hover{
+    /* color: #fbbf22 !important; */
+    border-bottom: 2px solid #fbbf22;
+}
+
+.blue-bg{
+    background-color: #003366;
+}
+
+.ptc{
+    /* color: #1E2A38; */
+    color: #0c2c53;
+}
+
+.stc{
+    color: #5C6B7A
+}
+
+.sbc{
+    background-color: #F3F4F6;
+}
+
+.light-back{
+    background-color: #F5F7FA;
+}
+
+.highlight-blue{
+    background-color: #007BFF;
+    /* color: #007BFF  */
+}
+
+.card-custom{
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    /* text-align: justify; */
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+}
+
+.card-profile{
+    width: 250px;
+    text-align: center;
+    padding: 1em;
+    margin: 1em auto;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+}
+
+.btest{
+    border: 2px solid red;
+}
+
+.card-profile img{
+    width: 120px;
+    margin: auto;
+    padding: 0.2em;
+}
+
+
+.bs{
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.custom-p{
+    font-size: 0.9em;
+    display: block;
+}
+.card-custom span{
+    font-size: 1.5em;
+}
+
+.cis{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    /* margin: 2em; */
+}
+
+.icon{
+    background-color: #fbbd222d;
+    padding: 0.15em;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: inline;
+}
+
+.din{
+    display: inline;
+    margin-left: 0.6em;
+}
+
+.bt{
+    background-color: #0c2c53;
+    color: white;
+}
+
+
+.cbs{
+    background-color: #fbbf23;
+    color: black;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    
+}
+.cbs:hover{
+    background-color: #fac130;
+}
+
+.fc{
+    background-color: #111828;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+.text-small{
+    font-size: 0.8em;
+}
+
+.stry strong{
+    color: #fbbf22;
+}
+
+.city{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.city p{
+    width: 200px;
+    font-weight: bold;
+    /* color: #fbbf22; */
+    color:#0c2c53;
+    text-align: center;
+    
+}
+
+.brr{
+    border-radius: 10px;
+}
+
+.form-st{
+    font-size: small;
+    color: #5C6B7A;
+    /* color: #0c2c53; */
+}

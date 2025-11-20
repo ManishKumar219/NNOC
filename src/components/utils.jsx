@@ -7,12 +7,16 @@ import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import user from '../assets/user.png';
 
 export function ProfileCard(props) {
     return (
         <>
             <Card className='card-profile'>
-                <Image src={props.image} alt="Profile" roundedCircle />
+                
+                <Image src={props.image}  alt="" roundedCircle />
+                
+                
                 <Card.Title as='p' className='fw-bold ptc'>{props.name}</Card.Title>
                 <Card.Text className='primary-yellow-text fw-bold m-1'> {props.desc}</Card.Text>
                 <Card.Text className='stc text-small'>Mail: {props.mail}</Card.Text>

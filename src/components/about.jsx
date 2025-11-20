@@ -31,7 +31,7 @@ export default function About() {
 
             <Container>
                 <div className='bs p-4 m-4  stry brr'>
-                    <h1 className='text-center ptc fw-bold'>Company Details</h1>
+                    <h2 className='text-center ptc'>Company Details</h2>
                     <br />
                     <p> <strong>COMPANY NAME</strong>  - NEW NATURAL OIL CORPORATION ( A UNIT OF RSN NATURAL OIL &
                         PETROLEUM PVT.LTD.) </p>
@@ -74,17 +74,17 @@ export default function About() {
             </div>
 
             <Container>
-                <h1 className='text-center ptc fw-bold pt-5'>Our Team</h1>
+                <h1 className='text-center ptc pt-5'>Our Team</h1>
 
                 <Row>
                     <Col className=''>
-                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='abc@abc' />
+                        <ProfileCard image={user} name='Nitish Kumar' desc='Director' mail='nk620045@gmail.com' />
                     </Col>
                     <Col className=''>
-                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='abc@abc' />
+                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='randhirs007@gmail.com' />
                     </Col>
                     <Col className=''>
-                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='abc@abc' />
+                        <ProfileCard image={user} name='Chandan Kumar' desc='State Head (Bihar & Jharkhand)' mail='chandan.prity1@ gmail.com' />
                     </Col>
 
 
@@ -92,13 +92,13 @@ export default function About() {
 
                 <Row>
                     <Col className=''>
-                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='abc@abc' />
+                        <ProfileCard image={user} name='Ramjivan Kumar' desc='Sales Executive' mail='www.yramjivan198@gmail.com' />
                     </Col>
                     <Col className=''>
-                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='abc@abc' />
+                        <ProfileCard image={user} name='Mangal Yadav' desc='Sales Executive' mail='mangalydv7808@gmail.com' />
                     </Col>
                     <Col className=''>
-                        <ProfileCard image={user} name='Randhir Mondal' desc='Director' mail='abc@abc' />
+                        <ProfileCard image={user} name='Sandeep Dubey' desc='State Head (West Bengal)' mail='sandeep62150@gmail.com' />
                     </Col>
 
                 </Row>
@@ -114,7 +114,7 @@ export default function About() {
                     <p className='stc p-2'>We are proudly expanding our business network in  <SpeedIcon sx={{ color: '#fbbf22', fontSize: '2rem' }} className=' m-2 pb-1' /></p>
 
                     <div className='city'>
-                        <p>Kolkata</p>
+                        <p>West Bengal</p>
                         <p>Bihar</p>
                         <p>Jharkhand</p>
                         <p>Chhattisgarh</p>
@@ -131,3 +131,5 @@ export default function About() {
         </>
     )
 }
+
+

@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo.jpeg';
 import React, { useRef } from "react";
 
 
